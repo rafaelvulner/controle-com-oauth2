@@ -8,6 +8,6 @@ public class Enconder {
 
         BCryptPasswordEncoder bc = new BCryptPasswordEncoder();
 
-        System.out.println(bc.encode("@ngul@r0"));
+        System.out.println(bc.encode("admin"));
     }
 }
